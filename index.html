@@ -1,0 +1,3099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pristine Steam Clean | Premium Cleaning Services in Alice Springs</title>
+
+  <meta
+    name="description"
+    content="Pristine Steam Clean provides professional steam cleaning, carpet cleaning, upholstery cleaning, tile and grout cleaning, bond cleaning and more throughout Alice Springs."
+  >
+
+  <meta name="theme-color" content="#07191b">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+
+    /* =========================================================
+       RESET
+    ========================================================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "DM Sans", sans-serif;
+      background: #f7faf9;
+      color: #102324;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    :root {
+      --dark: #07191b;
+      --dark-2: #0c2527;
+      --teal: #18b7ad;
+      --teal-dark: #0d8983;
+      --mint: #dff8f4;
+      --white: #ffffff;
+      --light: #f7faf9;
+      --grey: #657576;
+      --border: rgba(7, 25, 27, 0.1);
+      --shadow: 0 25px 70px rgba(5, 26, 27, 0.12);
+      --radius: 24px;
+    }
+
+    /* =========================================================
+       UTILITIES
+    ========================================================= */
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 110px 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--teal-dark);
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--teal);
+      border-radius: 10px;
+    }
+
+    .section-heading {
+      max-width: 720px;
+      margin-bottom: 55px;
+    }
+
+    .section-heading h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.25rem, 5vw, 4rem);
+      line-height: 1.08;
+      letter-spacing: -0.045em;
+      margin-bottom: 20px;
+    }
+
+    .section-heading p {
+      color: var(--grey);
+      font-size: 1.08rem;
+      max-width: 650px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 54px;
+      padding: 0 23px;
+      border-radius: 100px;
+      font-weight: 800;
+      transition: 0.3s ease;
+    }
+
+    .btn-primary {
+      background: var(--teal);
+      color: var(--dark);
+      box-shadow: 0 12px 30px rgba(24, 183, 173, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 38px rgba(24, 183, 173, 0.32);
+    }
+
+    .btn-outline {
+      color: white;
+      border: 1px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.12);
+      transform: translateY(-3px);
+    }
+
+    /* =========================================================
+       NAVIGATION
+    ========================================================= */
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: 0.35s ease;
+    }
+
+    .navbar.scrolled {
+      background: rgba(7, 25, 27, 0.92);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    }
+
+    .nav-inner {
+      height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+    }
+
+    .logo-mark {
+      width: 43px;
+      height: 43px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: var(--teal);
+      color: var(--dark);
+      font-size: 1.2rem;
+      font-weight: 900;
+      box-shadow: 0 10px 25px rgba(24,183,173,0.25);
+    }
+
+    .logo-text strong {
+      display: block;
+      font-family: "Manrope", sans-serif;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-text span {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      color: rgba(255,255,255,0.6);
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      color: rgba(255,255,255,0.82);
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      transition: 0.25s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--teal);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .mobile-menu {
+      display: none;
+      color: white;
+      font-size: 1.7rem;
+      background: transparent;
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    .hero {
+      min-height: 850px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background:
+        linear-gradient(
+          90deg,
+          rgba(4, 18, 20, 0.98) 0%,
+          rgba(4, 18, 20, 0.86) 42%,
+          rgba(4, 18, 20, 0.35) 72%,
+          rgba(4, 18, 20, 0.68) 100%
+        ),
+        url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=2000&q=85")
+        center/cover;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      right: -250px;
+      top: 100px;
+      background: rgba(24,183,173,0.12);
+      border-radius: 50%;
+      filter: blur(30px);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding-top: 80px;
+      max-width: 760px;
+      color: white;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 13px;
+      margin-bottom: 25px;
+      border-radius: 100px;
+      background: rgba(255,255,255,0.09);
+      border: 1px solid rgba(255,255,255,0.14);
+      backdrop-filter: blur(12px);
+      color: rgba(255,255,255,0.85);
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .hero-badge span {
+      width: 7px;
+      height: 7px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 15px var(--teal);
+    }
+
+    .hero h1 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(3.4rem, 7vw, 6.7rem);
+      line-height: 0.96;
+      letter-spacing: -0.065em;
+      max-width: 850px;
+      margin-bottom: 28px;
+    }
+
+    .hero h1 em {
+      color: var(--teal);
+      font-style: normal;
+    }
+
+    .hero-description {
+      max-width: 610px;
+      color: rgba(255,255,255,0.74);
+      font-size: 1.13rem;
+      margin-bottom: 34px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-bottom: 48px;
+    }
+
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,0.75);
+      font-size: 0.85rem;
+    }
+
+    .trust-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: rgba(24,183,173,0.13);
+      color: var(--teal);
+    }
+
+    /* =========================================================
+       STATS STRIP
+    ========================================================= */
+
+    .stats {
+      background: var(--dark);
+      color: white;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .stat {
+      padding: 34px 20px;
+      border-right: 1px solid rgba(255,255,255,0.09);
+      text-align: center;
+    }
+
+    .stat:last-child {
+      border-right: 0;
+    }
+
+    .stat strong {
+      display: block;
+      font-family: "Manrope", sans-serif;
+      color: var(--teal);
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat span {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    /* =========================================================
+       SERVICES
+    ========================================================= */
+
+    .services {
+      background: white;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .service-card {
+      position: relative;
+      min-height: 320px;
+      padding: 30px;
+      border-radius: var(--radius);
+      background: #f5f8f7;
+      border: 1px solid rgba(7,25,27,0.07);
+      overflow: hidden;
+      transition: 0.35s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow);
+      background: white;
+    }
+
+    .service-number {
+      position: absolute;
+      top: 22px;
+      right: 24px;
+      font-family: "Manrope", sans-serif;
+      font-size: 0.78rem;
+      color: #a3afaf;
+      font-weight: 800;
+    }
+
+    .service-icon {
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 30px;
+      border-radius: 18px;
+      background: var(--mint);
+      color: var(--teal-dark);
+      font-size: 1.45rem;
+    }
+
+    .service-card h3 {
+      font-family: "Manrope", sans-serif;
+      font-size: 1.45rem;
+      margin-bottom: 12px;
+      letter-spacing: -0.03em;
+    }
+
+    .service-card p {
+      color: var(--grey);
+      font-size: 0.94rem;
+    }
+
+    .service-link {
+      position: absolute;
+      bottom: 28px;
+      color: var(--teal-dark);
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+
+    /* =========================================================
+       FEATURE SECTION
+    ========================================================= */
+
+    .feature {
+      background: var(--light);
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 90px;
+      align-items: center;
+    }
+
+    .feature-image {
+      position: relative;
+      border-radius: 30px;
+      overflow: visible;
+    }
+
+    .feature-image-main {
+      height: 610px;
+      object-fit: cover;
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+    }
+
+    .floating-card {
+      position: absolute;
+      right: -35px;
+      bottom: 35px;
+      width: 230px;
+      padding: 23px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+    }
+
+    .floating-card strong {
+      display: block;
+      font-family: "Manrope", sans-serif;
+      font-size: 2rem;
+      color: var(--teal-dark);
+      line-height: 1;
+      margin-bottom: 7px;
+    }
+
+    .floating-card span {
+      color: var(--grey);
+      font-size: 0.8rem;
+    }
+
+    .feature-copy h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.4rem, 5vw, 4.2rem);
+      line-height: 1.05;
+      letter-spacing: -0.055em;
+      margin-bottom: 25px;
+    }
+
+    .feature-copy > p {
+      color: var(--grey);
+      margin-bottom: 28px;
+    }
+
+    .check-list {
+      list-style: none;
+      display: grid;
+      gap: 15px;
+      margin-bottom: 35px;
+    }
+
+    .check-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: #304243;
+      font-weight: 600;
+    }
+
+    .check {
+      flex: 0 0 auto;
+      width: 23px;
+      height: 23px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--teal);
+      color: var(--dark);
+      font-size: 0.7rem;
+      font-weight: 900;
+      margin-top: 1px;
+    }
+
+    /* =========================================================
+       SHOWCASE
+    ========================================================= */
+
+    .showcase {
+      background: var(--dark);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .showcase::before {
+      content: "";
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      left: -250px;
+      top: 100px;
+      border-radius: 50%;
+      background: rgba(24,183,173,0.12);
+      filter: blur(30px);
+    }
+
+    .showcase .section-heading p {
+      color: rgba(255,255,255,0.62);
+    }
+
+    .showcase-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 18px;
+    }
+
+    .showcase-large,
+    .showcase-small {
+      position: relative;
+      overflow: hidden;
+      border-radius: 26px;
+    }
+
+    .showcase-large {
+      min-height: 560px;
+    }
+
+    .showcase-small {
+      min-height: 271px;
+    }
+
+    .showcase-large img,
+    .showcase-small img {
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s ease;
+    }
+
+    .showcase-large:hover img,
+    .showcase-small:hover img {
+      transform: scale(1.04);
+    }
+
+    .showcase-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .showcase-overlay {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 35px;
+      background: linear-gradient(transparent, rgba(0,0,0,0.75));
+    }
+
+    .showcase-overlay h3 {
+      font-family: "Manrope", sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+    }
+
+    .showcase-overlay p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.85rem;
+    }
+
+    /* =========================================================
+       PROCESS
+    ========================================================= */
+
+    .process {
+      background: white;
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .process-card {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: white;
+      transition: 0.3s ease;
+    }
+
+    .process-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+    }
+
+    .process-num {
+      font-family: "Manrope", sans-serif;
+      font-size: 0.8rem;
+      color: var(--teal-dark);
+      font-weight: 900;
+      margin-bottom: 40px;
+    }
+
+    .process-card h3 {
+      font-family: "Manrope", sans-serif;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .process-card p {
+      color: var(--grey);
+      font-size: 0.88rem;
+    }
+
+    /* =========================================================
+       QUOTE CTA
+    ========================================================= */
+
+    .quote-section {
+      padding: 30px 0 110px;
+      background: white;
+    }
+
+    .quote-box {
+      position: relative;
+      overflow: hidden;
+      padding: 70px;
+      border-radius: 32px;
+      background:
+        linear-gradient(120deg, rgba(24,183,173,0.95), rgba(9,109,106,0.96)),
+        url("https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1800&q=85")
+        center/cover;
+      color: white;
+    }
+
+    .quote-box::after {
+      content: "";
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      right: -150px;
+      top: -180px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.2);
+      box-shadow:
+        0 0 0 60px rgba(255,255,255,0.04),
+        0 0 0 120px rgba(255,255,255,0.025);
+    }
+
+    .quote-content {
+      position: relative;
+      z-index: 2;
+      max-width: 720px;
+    }
+
+    .quote-box h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4.4rem);
+      line-height: 1.02;
+      letter-spacing: -0.055em;
+      margin-bottom: 20px;
+    }
+
+    .quote-box p {
+      max-width: 580px;
+      color: rgba(255,255,255,0.82);
+      margin-bottom: 30px;
+    }
+
+    .quote-box .btn {
+      background: white;
+      color: var(--dark);
+    }
+
+    /* =========================================================
+       FAQ
+    ========================================================= */
+
+    .faq {
+      background: var(--light);
+    }
+
+    .faq-layout {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 100px;
+      align-items: start;
+    }
+
+    .faq-intro h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      margin-bottom: 20px;
+    }
+
+    .faq-intro p {
+      color: var(--grey);
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .faq-item {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      overflow: hidden;
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 22px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: transparent;
+      text-align: left;
+      color: var(--dark);
+      font-weight: 800;
+    }
+
+    .faq-question span:last-child {
+      color: var(--teal-dark);
+      font-size: 1.4rem;
+      transition: 0.3s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: 0.35s ease;
+    }
+
+    .faq-answer p {
+      padding: 0 24px 23px;
+      color: var(--grey);
+      font-size: 0.92rem;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 180px;
+    }
+
+    .faq-item.active .faq-question span:last-child {
+      transform: rotate(45deg);
+    }
+
+    /* =========================================================
+       CONTACT
+    ========================================================= */
+
+    .contact {
+      background: white;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .contact-info h2 {
+      font-family: "Manrope", sans-serif;
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      margin-bottom: 20px;
+    }
+
+    .contact-info > p {
+      color: var(--grey);
+      margin-bottom: 35px;
+    }
+
+    .contact-details {
+      display: grid;
+      gap: 17px;
+    }
+
+    .contact-detail {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .contact-detail-icon {
+      width: 45px;
+      height: 45px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: var(--mint);
+      color: var(--teal-dark);
+    }
+
+    .contact-detail span {
+      display: block;
+      color: #7b8888;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .contact-detail strong {
+      font-size: 0.95rem;
+    }
+
+    .quote-form {
+      padding: 38px;
+      border-radius: 27px;
+      background: #f5f8f7;
+      border: 1px solid var(--border);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .field {
+      margin-bottom: 15px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    .field input,
+    .field textarea,
+    .field select {
+      width: 100%;
+      border: 1px solid rgba(7,25,27,0.12);
+      background: white;
+      border-radius: 12px;
+      padding: 14px 15px;
+      outline: none;
+      color: var(--dark);
+      transition: 0.2s ease;
+    }
+
+    .field textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .field input:focus,
+    .field textarea:focus,
+    .field select:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(24,183,173,0.1);
+    }
+
+    .form-submit {
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    footer {
+      background: var(--dark);
+      color: white;
+      padding: 65px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr 0.7fr;
+      gap: 70px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid rgba(255,255,255,0.09);
+    }
+
+    .footer-brand p {
+      max-width: 400px;
+      color: rgba(255,255,255,0.55);
+      margin-top: 18px;
+      font-size: 0.9rem;
+    }
+
+    .footer-title {
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 11px;
+      color: rgba(255,255,255,0.65);
+      font-size: 0.9rem;
+    }
+
+    .footer-links a {
+      transition: 0.25s ease;
+    }
+
+    .footer-links a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: rgba(255,255,255,0.42);
+      font-size: 0.75rem;
+    }
+
+    /* =========================================================
+       FLOATING CALL BUTTON
+    ========================================================= */
+
+    .floating-call {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 900;
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--teal);
+      color: var(--dark);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.22);
+      font-size: 1.25rem;
+      transition: 0.3s ease;
+    }
+
+    .floating-call:hover {
+      transform: translateY(-4px) scale(1.05);
+    }
+
+    /* =========================================================
+       REVEAL ANIMATION
+    ========================================================= */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(25px);
+      transition: 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 950px) {
+
+      .nav-links,
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: block;
+      }
+
+      .hero {
+        min-height: 780px;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .feature-grid,
+      .faq-layout,
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+      }
+
+      .feature-image {
+        max-width: 700px;
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .section {
+        padding: 75px 0;
+      }
+
+      .nav-inner {
+        height: 70px;
+      }
+
+      .logo-mark {
+        width: 38px;
+        height: 38px;
+        border-radius: 11px;
+      }
+
+      .hero {
+        min-height: 750px;
+        background-position: 62% center;
+      }
+
+      .hero-content {
+        padding-top: 65px;
+      }
+
+      .hero h1 {
+        font-size: clamp(3rem, 15vw, 4.8rem);
+      }
+
+      .hero-description {
+        font-size: 1rem;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero-buttons .btn {
+        width: 100%;
+      }
+
+      .hero-trust {
+        gap: 15px;
+      }
+
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stat:nth-child(2) {
+        border-right: 0;
+      }
+
+      .stat:nth-child(-n+2) {
+        border-bottom: 1px solid rgba(255,255,255,0.09);
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+        min-height: 290px;
+      }
+
+      .feature-image-main {
+        height: 450px;
+      }
+
+      .floating-card {
+        right: 12px;
+        bottom: 20px;
+      }
+
+      .showcase-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .showcase-large {
+        min-height: 430px;
+      }
+
+      .showcase-small {
+        min-height: 250px;
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .quote-box {
+        padding: 45px 27px;
+      }
+
+      .quote-form {
+        padding: 25px 18px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+
+      .floating-call {
+        right: 15px;
+        bottom: 15px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =======================================================
+       NAVIGATION
+  ======================================================== -->
+
+  <header class="navbar" id="navbar">
+
+    <div class="container nav-inner">
+
+      <a href="#top" class="logo">
+
+        <div class="logo-mark">
+          P
+        </div>
+
+        <div class="logo-text">
+          <strong>PRISTINE STEAM CLEAN</strong>
+          <span>Alice Springs</span>
+        </div>
+
+      </a>
+
+
+      <nav class="nav-links">
+
+        <a href="#services">
+          Services
+        </a>
+
+        <a href="#about">
+          Why Pristine
+        </a>
+
+        <a href="#results">
+          Results
+        </a>
+
+        <a href="#faq">
+          FAQ
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </nav>
+
+
+      <div class="nav-actions">
+
+        <a
+          href="tel:0427534197"
+          class="btn btn-primary"
+        >
+          Call 0427 534 197
+        </a>
+
+        <button
+          class="mobile-menu"
+          onclick="toggleMobileMenu()"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =======================================================
+       MOBILE MENU
+  ======================================================== -->
+
+  <div
+    id="mobileMenu"
+    style="
+      display:none;
+      position:fixed;
+      inset:70px 0 auto 0;
+      z-index:999;
+      background:#07191b;
+      padding:25px;
+      box-shadow:0 20px 40px rgba(0,0,0,.25);
+    "
+  >
+
+    <div
+      style="
+        display:grid;
+        gap:18px;
+        color:white;
+        font-weight:700;
+      "
+    >
+
+      <a
+        href="#services"
+        onclick="toggleMobileMenu()"
+      >
+        Services
+      </a>
+
+      <a
+        href="#about"
+        onclick="toggleMobileMenu()"
+      >
+        Why Pristine
+      </a>
+
+      <a
+        href="#results"
+        onclick="toggleMobileMenu()"
+      >
+        Results
+      </a>
+
+      <a
+        href="#faq"
+        onclick="toggleMobileMenu()"
+      >
+        FAQ
+      </a>
+
+      <a
+        href="#contact"
+        onclick="toggleMobileMenu()"
+      >
+        Contact
+      </a>
+
+      <a
+        href="tel:0427534197"
+        class="btn btn-primary"
+        style="margin-top:10px;"
+      >
+        Call Now
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       HERO
+  ======================================================== -->
+
+  <main id="top">
+
+    <section class="hero">
+
+      <div class="container">
+
+        <div class="hero-content reveal">
+
+          <div class="hero-badge">
+
+            <span></span>
+
+            Family Owned · Alice Springs
+
+          </div>
+
+
+          <h1>
+
+            A deeper clean.<br>
+
+            A <em>pristine</em> finish.
+
+          </h1>
+
+
+          <p class="hero-description">
+
+            Professional steam cleaning and property care for homes,
+            businesses, renters and real estate properties throughout
+            Alice Springs.
+
+          </p>
+
+
+          <div class="hero-buttons">
+
+            <a
+              href="#contact"
+              class="btn btn-primary"
+            >
+
+              Get a Free Quote
+
+              <span>→</span>
+
+            </a>
+
+
+            <a
+              href="tel:0427534197"
+              class="btn btn-outline"
+            >
+
+              Call 0427 534 197
+
+            </a>
+
+          </div>
+
+
+          <div class="hero-trust">
+
+            <div class="trust-item">
+
+              <div class="trust-icon">
+                ✓
+              </div>
+
+              Family owned
+
+            </div>
+
+
+            <div class="trust-item">
+
+              <div class="trust-icon">
+                ◆
+              </div>
+
+              Professional service
+
+            </div>
+
+
+            <div class="trust-item">
+
+              <div class="trust-icon">
+                ⌂
+              </div>
+
+              Alice Springs
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         STATS
+    ====================================================== -->
+
+    <section class="stats">
+
+      <div class="container stats-grid">
+
+        <div class="stat">
+
+          <strong>11+</strong>
+
+          <span>
+            Years Trading
+          </span>
+
+        </div>
+
+
+        <div class="stat">
+
+          <strong>01</strong>
+
+          <span>
+            Local Team
+          </span>
+
+        </div>
+
+
+        <div class="stat">
+
+          <strong>360°</strong>
+
+          <span>
+            Cleaning Solutions
+          </span>
+
+        </div>
+
+
+        <div class="stat">
+
+          <strong>NT</strong>
+
+          <span>
+            Alice Springs Based
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SERVICES
+    ====================================================== -->
+
+    <section
+      class="section services"
+      id="services"
+    >
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <div class="eyebrow">
+            What we do
+          </div>
+
+          <h2>
+
+            More than clean.<br>
+
+            Properly cared for.
+
+          </h2>
+
+          <p>
+
+            From carpets and upholstery to hard floors, bathrooms and
+            end-of-lease cleans, Pristine Steam Clean provides a complete
+            range of professional cleaning solutions.
+
+          </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              01
+            </div>
+
+            <div class="service-icon">
+              ✦
+            </div>
+
+            <h3>
+              Steam & Carpet Cleaning
+            </h3>
+
+            <p>
+
+              Professional steam cleaning and stain removal designed
+              to refresh carpets and bring tired flooring back to life.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              02
+            </div>
+
+            <div class="service-icon">
+              ◈
+            </div>
+
+            <h3>
+              Upholstery Cleaning
+            </h3>
+
+            <p>
+
+              Deep cleaning for sofas, chairs, mattresses and other
+              upholstered surfaces.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              03
+            </div>
+
+            <div class="service-icon">
+              ◇
+            </div>
+
+            <h3>
+              Tile & Grout
+            </h3>
+
+            <p>
+
+              Deep cleaning for tiles and grout, including stubborn
+              build-up and hard-to-remove marks.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              04
+            </div>
+
+            <div class="service-icon">
+              ▣
+            </div>
+
+            <h3>
+              Bond & Vacate Cleaning
+            </h3>
+
+            <p>
+
+              Thorough property cleaning for renters, landlords and
+              real estate requirements.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              05
+            </div>
+
+            <div class="service-icon">
+              ◆
+            </div>
+
+            <h3>
+              Vinyl Floor Care
+            </h3>
+
+            <p>
+
+              Vinyl stripping, floor care and sealing to help restore
+              a cleaner, more polished finish.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+          <article class="service-card reveal">
+
+            <div class="service-number">
+              06
+            </div>
+
+            <div class="service-icon">
+              ○
+            </div>
+
+            <h3>
+              Stone & Grout Sealing
+            </h3>
+
+            <p>
+
+              Professional sealing solutions for natural stone and
+              grout surfaces.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+              Request a quote →
+            </a>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ABOUT
+    ====================================================== -->
+
+    <section
+      class="section feature"
+      id="about"
+    >
+
+      <div class="container feature-grid">
+
+
+        <div class="feature-image reveal">
+
+          <img
+            class="feature-image-main"
+            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=85"
+            alt="Professional cleaning service"
+          >
+
+
+          <div class="floating-card">
+
+            <strong>
+              11+
+            </strong>
+
+            <span>
+              Years serving the Alice Springs community
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="feature-copy reveal">
+
+          <div class="eyebrow">
+            The Pristine difference
+          </div>
+
+          <h2>
+
+            Professional care from people who know cleaning.
+
+          </h2>
+
+          <p>
+
+            Pristine Steam Clean is a family-owned business proudly
+            servicing homeowners, renters and businesses across Alice
+            Springs.
+
+          </p>
+
+
+          <ul class="check-list">
+
+            <li>
+              <span class="check">✓</span>
+              <span>
+                Professional carpet and steam cleaning
+              </span>
+            </li>
+
+            <li>
+              <span class="check">✓</span>
+              <span>
+                Upholstery and mattress cleaning
+              </span>
+            </li>
+
+            <li>
+              <span class="check">✓</span>
+              <span>
+                Tile, grout and hard-floor care
+              </span>
+            </li>
+
+            <li>
+              <span class="check">✓</span>
+              <span>
+                Bond, vacate and full-house cleaning
+              </span>
+            </li>
+
+            <li>
+              <span class="check">✓</span>
+              <span>
+                Commercial and property cleaning solutions
+              </span>
+            </li>
+
+          </ul>
+
+
+          <a
+            href="#contact"
+            class="btn btn-primary"
+          >
+
+            Talk to Pristine
+
+            <span>→</span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         RESULTS
+    ====================================================== -->
+
+    <section
+      class="section showcase"
+      id="results"
+    >
+
+      <div class="container">
+
+
+        <div class="section-heading reveal">
+
+          <div
+            class="eyebrow"
+            style="color:#4de0d7;"
+          >
+            Cleaning solutions
+          </div>
+
+          <h2>
+
+            Every surface deserves
+            a pristine finish.
+
+          </h2>
+
+          <p>
+
+            Whether it's a lived-in family home, rental property,
+            commercial space or hard-working floor, the right cleaning
+            process makes the difference.
+
+          </p>
+
+        </div>
+
+
+        <div class="showcase-grid">
+
+
+          <div class="showcase-large reveal">
+
+            <img
+              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1400&q=85"
+              alt="Professional cleaning"
+            >
+
+            <div class="showcase-overlay">
+
+              <h3>
+                Professional cleaning
+              </h3>
+
+              <p>
+                Detailed care for homes and commercial properties.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="showcase-stack">
+
+
+            <div class="showcase-small reveal">
+
+              <img
+                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85"
+                alt="Clean interior"
+              >
+
+              <div class="showcase-overlay">
+
+                <h3>
+                  Fresh interiors
+                </h3>
+
+                <p>
+                  Comfortable, clean living spaces.
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="showcase-small reveal">
+
+              <img
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=85"
+                alt="Clean bathroom"
+              >
+
+              <div class="showcase-overlay">
+
+                <h3>
+                  Detailed finish
+                </h3>
+
+                <p>
+                  Attention to the details that matter.
+                </p>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROCESS
+    ====================================================== -->
+
+    <section class="section process">
+
+      <div class="container">
+
+
+        <div class="section-heading reveal">
+
+          <div class="eyebrow">
+            Simple process
+          </div>
+
+          <h2>
+            Cleaning made easy.
+          </h2>
+
+          <p>
+
+            Tell us what needs attention and we'll help work out the
+            right cleaning solution for your property.
+
+          </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+          <div class="process-card reveal">
+
+            <div class="process-num">
+              01 / ENQUIRE
+            </div>
+
+            <h3>
+              Tell us what you need
+            </h3>
+
+            <p>
+
+                            Give us a call or send through a quote request with a few
+              details about the property and the cleaning you need.
+
+            </p>
+
+          </div>
+
+
+          <div class="process-card reveal">
+
+            <div class="process-num">
+              02 / ASSESS
+            </div>
+
+            <h3>
+              We work out the right solution
+            </h3>
+
+            <p>
+
+              We'll discuss the surfaces, areas and level of cleaning
+              required so the job can be approached properly.
+
+            </p>
+
+          </div>
+
+
+          <div class="process-card reveal">
+
+            <div class="process-num">
+              03 / CLEAN
+            </div>
+
+            <h3>
+              We get to work
+            </h3>
+
+            <p>
+
+              Our team carries out the agreed cleaning service with
+              care and attention to detail.
+
+            </p>
+
+          </div>
+
+
+          <div class="process-card reveal">
+
+            <div class="process-num">
+              04 / PRISTINE
+            </div>
+
+            <h3>
+              Enjoy the finished result
+            </h3>
+
+            <p>
+
+              Walk back into a cleaner, fresher and more comfortable
+              property.
+
+            </p>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <section class="section quote-section">
+
+      <div class="container">
+
+        <div class="quote-box reveal">
+
+          <div class="quote-copy">
+
+            <div class="eyebrow">
+              Ready when you are
+            </div>
+
+            <h2>
+              Let's get your property looking pristine.
+            </h2>
+
+            <p>
+
+              From one room to an entire property, tell us what needs
+              cleaning and we'll help you find the right solution.
+
+            </p>
+
+
+            <a
+              href="tel:0427534197"
+              class="btn btn-primary"
+            >
+
+              Call 0427 534 197
+
+              <span>→</span>
+
+            </a>
+
+          </div>
+
+
+          <div class="quote-form">
+
+            <form
+              id="quoteForm"
+              onsubmit="submitQuote(event)"
+            >
+
+              <div class="form-row">
+
+                <div class="field">
+
+                  <label for="name">
+                    Your name
+                  </label>
+
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  >
+
+                </div>
+
+
+                <div class="field">
+
+                  <label for="phone">
+                    Phone
+                  </label>
+
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your phone number"
+                    required
+                  >
+
+                </div>
+
+              </div>
+
+
+              <div class="form-row">
+
+                <div class="field">
+
+                  <label for="email">
+                    Email
+                  </label>
+
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email address"
+                  >
+
+                </div>
+
+
+                <div class="field">
+
+                  <label for="service">
+                    Service
+                  </label>
+
+                  <select
+                    id="service"
+                    name="service"
+                    required
+                  >
+
+                    <option value="">
+                      Select a service
+                    </option>
+
+                    <option>
+                      Steam & Carpet Cleaning
+                    </option>
+
+                    <option>
+                      Upholstery Cleaning
+                    </option>
+
+                    <option>
+                      Tile & Grout Cleaning
+                    </option>
+
+                    <option>
+                      Bond & Vacate Cleaning
+                    </option>
+
+                    <option>
+                      Vinyl Floor Care
+                    </option>
+
+                    <option>
+                      Stone & Grout Sealing
+                    </option>
+
+                    <option>
+                      Full House Cleaning
+                    </option>
+
+                    <option>
+                      Commercial Cleaning
+                    </option>
+
+                    <option>
+                      Other
+                    </option>
+
+                  </select>
+
+                </div>
+
+              </div>
+
+
+              <div class="field">
+
+                <label for="message">
+                  Tell us about the job
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="What needs cleaning? Include the property type, rooms/areas and anything else we should know."
+                  required
+                ></textarea>
+
+              </div>
+
+
+              <button
+                type="submit"
+                class="btn btn-primary form-submit"
+              >
+
+                Request My Free Quote
+
+                <span>→</span>
+
+              </button>
+
+
+              <p
+                style="
+                  font-size:0.72rem;
+                  color:var(--grey);
+                  margin-top:12px;
+                  text-align:center;
+                "
+              >
+
+                No obligation. We'll get back to you as soon as possible.
+
+              </p>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAQ
+    ====================================================== -->
+
+    <section
+      class="section faq"
+      id="faq"
+    >
+
+      <div class="container faq-layout">
+
+
+        <div class="faq-intro reveal">
+
+          <div class="eyebrow">
+            Frequently asked
+          </div>
+
+          <h2>
+            Questions?
+            We've got you covered.
+          </h2>
+
+          <p>
+
+            Not sure which service you need? Here are some of the
+            questions customers commonly ask.
+
+          </p>
+
+
+          <a
+            href="#contact"
+            class="btn btn-dark"
+          >
+
+            Ask Us Anything
+
+            <span>→</span>
+
+          </a>
+
+        </div>
+
+
+        <div class="faq-list reveal">
+
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              onclick="toggleFaq(this)"
+            >
+
+              <span>
+                What areas do you service?
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Pristine Steam Clean is based in Alice Springs and
+                services Alice Springs and surrounding areas. Contact us
+                to discuss your location and requirements.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              onclick="toggleFaq(this)"
+            >
+
+              <span>
+                What types of properties do you clean?
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+
+                We can help with residential homes, rental properties,
+                end-of-lease cleaning, commercial spaces and other
+                property-cleaning requirements.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              onclick="toggleFaq(this)"
+            >
+
+              <span>
+                Can you remove stains from carpets?
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Steam cleaning can help remove many types of marks and
+                stains. Results can vary depending on the stain, carpet
+                material and how long it has been present.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              onclick="toggleFaq(this)"
+            >
+
+              <span>
+                Do you offer free quotes?
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Yes. Get in touch with some details about the cleaning
+                you require and we'll help determine the right solution
+                for your property.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              onclick="toggleFaq(this)"
+            >
+
+              <span>
+                Do you clean commercial properties?
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Commercial cleaning solutions are available. Contact
+                Pristine Steam Clean to discuss your property and
+                cleaning requirements.
+
+              </p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section
+      class="section contact"
+      id="contact"
+    >
+
+      <div class="container">
+
+
+        <div class="contact-grid">
+
+
+          <div class="contact-copy reveal">
+
+            <div class="eyebrow">
+              Get in touch
+            </div>
+
+            <h2>
+              Ready for a cleaner space?
+            </h2>
+
+            <p>
+
+              Contact Pristine Steam Clean today for a quote or to
+              discuss the right cleaning service for your property.
+
+            </p>
+
+
+            <div class="contact-details">
+
+
+              <a
+                href="tel:0427534197"
+                class="contact-detail"
+              >
+
+                <div class="contact-detail-icon">
+                  ☎
+                </div>
+
+                <div>
+
+                  <span>
+                    Call us
+                  </span>
+
+                  <strong>
+                    0427 534 197
+                  </strong>
+
+                </div>
+
+              </a>
+
+
+              <div class="contact-detail">
+
+                <div class="contact-detail-icon">
+                  ⌂
+                </div>
+
+                <div>
+
+                  <span>
+                    Service area
+                  </span>
+
+                  <strong>
+                    Alice Springs & Surrounding Areas
+                  </strong>
+
+                </div>
+
+              </div>
+
+
+              <div class="contact-detail">
+
+                <div class="contact-detail-icon">
+                  ✓
+                </div>
+
+                <div>
+
+                  <span>
+                    Local service
+                  </span>
+
+                  <strong>
+                    Family Owned & Local
+                  </strong>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <div class="contact-card reveal">
+
+            <div class="contact-card-top">
+
+              <span class="eyebrow">
+                Pristine Steam Clean
+              </span>
+
+              <h3>
+                Tell us what needs attention.
+              </h3>
+
+              <p>
+
+                Call us directly or send a quote request and we'll
+                help you work out the next step.
+
+              </p>
+
+            </div>
+
+
+            <div class="contact-card-actions">
+
+              <a
+                href="tel:0427534197"
+                class="btn btn-primary"
+              >
+
+                Call 0427 534 197
+
+              </a>
+
+
+              <a
+                href="#contact"
+                class="btn btn-dark"
+              >
+
+                Request a Quote
+
+              </a>
+
+            </div>
+
+
+            <div class="contact-note">
+
+              <span>✓</span>
+
+              Residential & commercial cleaning
+
+            </div>
+
+            <div class="contact-note">
+
+              <span>✓</span>
+
+              Alice Springs based
+
+            </div>
+
+            <div class="contact-note">
+
+              <span>✓</span>
+
+              Professional cleaning solutions
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =======================================================
+       FOOTER
+  ======================================================== -->
+
+  <footer>
+
+    <div class="container">
+
+
+      <div class="footer-grid">
+
+
+        <div class="footer-brand">
+
+          <a
+            href="#top"
+            class="logo"
+          >
+
+            <div class="logo-mark">
+              P
+            </div>
+
+            <div class="logo-text">
+
+              <strong>
+                PRISTINE STEAM CLEAN
+              </strong>
+
+              <span>
+                Alice Springs
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <p>
+
+            Professional steam cleaning, floor care and property
+            cleaning solutions across Alice Springs and surrounding
+            areas.
+
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <div class="footer-title">
+            Explore
+          </div>
+
+          <div class="footer-links">
+
+            <a href="#services">
+              Services
+            </a>
+
+            <a href="#about">
+              Why Pristine
+            </a>
+
+            <a href="#results">
+              Results
+            </a>
+
+            <a href="#faq">
+              FAQ
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="footer-title">
+            Contact
+          </div>
+
+          <div class="footer-links">
+
+            <a href="tel:0427534197">
+              0427 534 197
+            </a>
+
+            <a href="#contact">
+              Request a Quote
+            </a>
+
+            <span>
+              Alice Springs, NT
+            </span>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © <span id="year"></span> Pristine Steam Clean. All rights reserved.
+        </span>
+
+        <span>
+          Professional cleaning in Alice Springs
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =======================================================
+       FLOATING CALL
+  ======================================================== -->
+
+  <a
+    href="tel:0427534197"
+    class="floating-call"
+    aria-label="Call Pristine Steam Clean"
+  >
+    ☎
+  </a>
+
+
+  <!-- =======================================================
+       JAVASCRIPT
+  ======================================================== -->
+
+  <script>
+
+    /* =====================================================
+       MOBILE MENU
+    ====================================================== */
+
+    function toggleMobileMenu() {
+
+      const menu = document.getElementById("mobileMenu");
+
+      if (menu.style.display === "none" || menu.style.display === "") {
+
+        menu.style.display = "block";
+
+      } else {
+
+        menu.style.display = "none";
+
+      }
+
+    }
+
+
+    /* =====================================================
+       FAQ ACCORDION
+    ====================================================== */
+
+    function toggleFaq(button) {
+
+      const item = button.parentElement;
+
+      const currentlyOpen = item.classList.contains("open");
+
+      document
+        .querySelectorAll(".faq-item")
+        .forEach(function(faq) {
+
+          faq.classList.remove("open");
+
+        });
+
+
+      if (!currentlyOpen) {
+
+        item.classList.add("open");
+
+      }
+
+    }
+
+
+    /* =====================================================
+       SCROLL REVEAL
+    ====================================================== */
+
+    const revealObserver = new IntersectionObserver(
+
+      function(entries) {
+
+        entries.forEach(function(entry) {
+
+          if (entry.isIntersecting) {
+
+            entry.target.classList.add("visible");
+
+            revealObserver.unobserve(entry.target);
+
+          }
+
+        });
+
+      },
+
+      {
+        threshold: 0.12
+      }
+
+    );
+
+
+    document
+      .querySelectorAll(".reveal")
+      .forEach(function(element) {
+
+        revealObserver.observe(element);
+
+      });
+
+
+    /* =====================================================
+       NAVBAR SCROLL EFFECT
+    ====================================================== */
+
+    window.addEventListener("scroll", function() {
+
+      const navbar = document.getElementById("navbar");
+
+      if (window.scrollY > 40) {
+
+        navbar.classList.add("scrolled");
+
+      } else {
+
+        navbar.classList.remove("scrolled");
+
+      }
+
+    });
+
+
+    /* =====================================================
+       QUOTE FORM
+    ====================================================== */
+
+    function submitQuote(event) {
+
+      event.preventDefault();
+
+
+      const name =
+        document.getElementById("name").value.trim();
+
+      const phone =
+        document.getElementById("phone").value.trim();
+
+      const email =
+        document.getElementById("email").value.trim();
+
+      const service =
+        document.getElementById("service").value;
+
+      const message =
+        document.getElementById("message").value.trim();
+
+
+      const subject =
+        encodeURIComponent(
+          "New Quote Request - Pristine Steam Clean"
+        );
+
+
+      const body =
+        encodeURIComponent(
+
+          "New quote request from the website.\n\n" +
+
+          "Name: " + name + "\n" +
+
+          "Phone: " + phone + "\n" +
+
+          "Email: " + email + "\n" +
+
+          "Service: " + service + "\n\n" +
+
+          "Message:\n" + message
+
+        );
+
+
+      /*
+        IMPORTANT:
+
+        Replace the empty recipient below with the
+        confirmed business email address.
+
+        Example:
+
+        window.location.href =
+          "mailto:info@example.com?subject=" +
+          subject +
+          "&body=" +
+          body;
+      */
+
+
+      window.location.href =
+        "mailto:?subject=" +
+        subject +
+        "&body=" +
+        body;
+
+    }
+
+
+    /* =====================================================
+       CURRENT YEAR
+    ====================================================== */
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+
+  </script>
+
+
+</body>
+
+</html>
